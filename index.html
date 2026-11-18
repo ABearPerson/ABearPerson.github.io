@@ -201,6 +201,16 @@
       <a href="#top">Back to top ↑</a>
     </footer>
   </div>
+  <!-- Count visits to the public portfolio only. -->
+  <script>
+    if (window.location.hostname === "abearperson.github.io") {
+      var analytics = document.createElement("script");
+      analytics.setAttribute("data-goatcounter", "https://abearperson.goatcounter.com/count");
+      analytics.async = true;
+      analytics.src = "https://gc.zgo.at/count.js";
+      document.head.appendChild(analytics);
+    }
+  </script>
 </body>
 </html>
 
